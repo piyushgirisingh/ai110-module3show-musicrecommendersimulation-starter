@@ -211,3 +211,8 @@ A few sentences about what you learned:
 - How did building this change how you think about real music recommenders
 - Where do you think human judgment still matters, even if the model seems "smart"
 
+![alt text](<Screenshot 2026-04-14 at 12.50.05 AM.png>)
+
+![alt text](<Screenshot 2026-04-14 at 12.50.50 AM.png>)
+
+![alt text](<Screenshot 2026-04-14 at 12.50.34 AM.png>)
