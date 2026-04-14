@@ -11,13 +11,15 @@ Your goal is to:
 - Evaluate what your system gets right and wrong
 - Reflect on how this mirrors real world AI recommenders
 
-Replace this paragraph with your own summary of what your version does.
+This version scores every song in a small catalog against a single user profile using four hand-crafted signals: genre match, mood match, energy proximity, and acousticness fit. Each song receives a numeric score (max 4.5), and the top-ranked songs are returned as recommendations. There is no machine learning — the logic is fully transparent and rule-based.
 
 ---
 
 ## How The System Works
 
 Explain your design in plain language.
+
+Real-world recommenders like Spotify or YouTube learn from millions of users. They notice that people who liked song A also liked song B, and use that pattern to make predictions. My version works differently: it never looks at what other users did. Instead, it compares each song's features directly against what one user says they want, and gives every song a score based on how well it matches. The scoring prioritizes three things above all: mood (does the emotional label match?), energy (is the intensity close to the target?), and valence (does the positivity level align?). Acousticness and genre act as softer bonuses. Once every song has a score, the system ranks them and returns the top results. There is no learning, no history, and no surprise. It is a transparent, rule-based match between a user profile and a song catalog.
 
 Some prompts to answer:
 
